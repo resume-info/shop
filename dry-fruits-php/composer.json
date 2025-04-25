@@ -1,0 +1,16 @@
+{
+    "name": "dry-fruits-ecommerce",
+    "description": "E-commerce website for selling dry fruits",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "mongodb/mongodb": "^1.12",
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "classes/"
+        }
+    }
+} 
